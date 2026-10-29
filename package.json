@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-geosearchleads",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "n8n node for GEO Search Leads: run lite and full GEO scans of a website and get its full report.",
   "license": "MIT",
   "homepage": "https://geosearchleads.com",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Alifar/n8n-nodes-geosearchleads.git"
+    "url": "git+https://github.com/Alifar/n8n-nodes-geosearchleads.git"
   },
   "scripts": {
     "build": "n8n-node build",
@@ -31,6 +31,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "n8n": {
     "n8nNodesApiVersion": 1,
     "strict": true,
